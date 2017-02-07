@@ -20,9 +20,13 @@ unix:!android {
 }
 
 HEADERS += \
+    Field.h \
+    FieldList.h
     
 
 SOURCES += \
+    Field.cpp \
+    FieldList.cpp
     
 
 OTHER_FILES += \
